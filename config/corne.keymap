@@ -168,6 +168,21 @@
             bindings = <&paragreat>;
             key-positions = <20 21>;
         };
+
+        Ctrl-J {
+            bindings = <&kp LC(J)>;
+            key-positions = <15 16>;
+        };
+
+        Snip {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <16 17>;
+        };
+
+        Win-E {
+            bindings = <&kp LG(E)>;
+            key-positions = <27 28>;
+        };
     };
 
     //
