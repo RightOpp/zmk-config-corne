@@ -200,10 +200,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp DELETE  &kp Q    &kp P          &kp Y  &kp C                         &kp B                &kp V               &kp M      &kp U  &kp L  &kp APOSTROPHE  &kp SEMICOLON
-&kp COMMA   &kp A    &kp N          &kp I  &kp S                         &kp F                &kp D               &kp T      &kp E  &kp O  &kp R           &kp PERIOD
-&kp EQUAL   &kp TAB  &kp KP_DIVIDE  &kp J  &kp G                         &kp X                &kp Z               &kp H      &kp K  &kp W  &kp MINUS       &kp ESCAPE
-                                    &mo 1  &mt LEFT_SHIFT LC(BACKSPACE)  &mt LCTRL LA(TAB)    &mt LEFT_ALT ENTER  &kp SPACE  &mo 2
+&kp DELETE  &kp Q    &kp P      &kp Y  &kp C                         &kp B                &kp V               &kp M      &kp U  &kp L  &kp APOSTROPHE  &kp SEMICOLON
+&kp COMMA   &kp A    &kp N      &kp I  &kp S                         &kp F                &kp D               &kp T      &kp E  &kp O  &kp R           &kp PERIOD
+&kp EQUAL   &kp TAB  &kp SLASH  &kp J  &kp G                         &kp X                &kp Z               &kp H      &kp K  &kp W  &kp MINUS       &kp ESCAPE
+                                &mo 1  &mt LEFT_SHIFT LC(BACKSPACE)  &mt LCTRL LA(TAB)    &mt LEFT_ALT ENTER  &kp SPACE  &mo 2
             >;
         };
 
