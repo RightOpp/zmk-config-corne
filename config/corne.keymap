@@ -180,8 +180,13 @@
         };
 
         MEHS {
-            bindings = <&kp LS(LA(LC(S)))>;
+            bindings = <&kp LS(LC(S))>;
             key-positions = <16 17>;
+        };
+
+        Asterix {
+            bindings = <&kp ASTRK>;
+            key-positions = <3 4>;
         };
     };
 
