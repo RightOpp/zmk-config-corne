@@ -200,10 +200,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp DELETE  &kp Q    &kp P      &kp Y  &kp C                         &kp B                &kp V               &kp M      &kp U  &kp L  &kp APOSTROPHE  &kp SEMICOLON
-&kp COMMA   &kp A    &kp N      &kp I  &kp S                         &kp F                &kp D               &kp T      &kp E  &kp O  &kp R           &kp PERIOD
-&kp EQUAL   &kp TAB  &kp SLASH  &kp J  &kp G                         &kp X                &kp Z               &kp H      &kp K  &kp W  &kp MINUS       &kp ESCAPE
-                                &mo 1  &mt LEFT_SHIFT LC(BACKSPACE)  &mt LCTRL LA(TAB)    &mt LEFT_ALT ENTER  &kp SPACE  &mo 2
+&kp DELETE  &kp Q      &kp P      &kp Y  &kp C                         &kp B                &kp V               &kp M      &kp U  &kp L  &kp APOSTROPHE  &kp SEMICOLON
+&kp TAB     &kp A      &kp N      &kp I  &kp S                         &kp F                &kp D               &kp T      &kp E  &kp O  &kp R           &kp MINUS
+&kp EQUAL   &kp COMMA  &kp SLASH  &kp J  &kp G                         &kp X                &kp Z               &kp H      &kp K  &kp W  &kp PERIOD      &kp ESCAPE
+                                  &mo 1  &mt LEFT_SHIFT LC(BACKSPACE)  &mt LCTRL LA(TAB)    &mt LEFT_ALT ENTER  &kp SPACE  &mo 2
             >;
         };
 
@@ -217,10 +217,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp RG(LEFT_ARROW)  &kp N1  &kp N2    &kp N3        &kp N4     &kp N5           &kp N6   &kp N7  &kp N8  &kp N9  &kp N0  &kp RG(RIGHT)
-&kp LG(TAB)         &trans  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PAGE_UP      &kp N0   &kp N4  &kp N5  &kp N6  &trans  &kp PERIOD
-&trans              &trans  &kp HOME  &kp DOWN      &kp END    &kp PAGE_DOWN    &trans   &kp N1  &kp N2  &kp N3  &trans  &kp LC(LA(DEL))
-                                      &kp LGUI      &trans     &kp SPACE        &kp RET  &trans  &trans
+&kp RG(LEFT_ARROW)  &kp N1  &kp N2    &kp N3        &kp N4         &kp N5           &kp N6   &kp N7  &kp N8  &kp N9  &kp N0  &kp RG(RIGHT)
+&kp LG(TAB)         &trans  &kp LEFT  &kp UP_ARROW  &kp RIGHT      &kp PAGE_UP      &kp N0   &kp N4  &kp N5  &kp N6  &trans  &kp PERIOD
+&trans              &trans  &kp HOME  &kp DOWN      &kp END        &kp PAGE_DOWN    &trans   &kp N1  &kp N2  &kp N3  &trans  &kp LC(LA(DEL))
+                                      &kp LGUI      &kp BACKSPACE  &kp SPACE        &kp RET  &trans  &trans
             >;
         };
 
