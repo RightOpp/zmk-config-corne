@@ -174,11 +174,6 @@
             key-positions = <15 16>;
         };
 
-        Folder {
-            bindings = <&kp RG(E)>;
-            key-positions = <27 28>;
-        };
-
         MEHS {
             bindings = <&kp LS(LC(S))>;
             key-positions = <16 17>;
@@ -187,6 +182,11 @@
         Asterix {
             bindings = <&kp ASTRK>;
             key-positions = <3 4>;
+        };
+
+        FolderTree {
+            bindings = <&kp RG(E)>;
+            key-positions = <29 28>;
         };
     };
 
