@@ -207,7 +207,7 @@
             bindings = <
 &kp DELETE  &kp Q      &kp P      &kp Y  &kp C                         &kp B                &kp V               &kp M      &kp U  &kp L  &kp APOSTROPHE  &kp SEMICOLON
 &kp TAB     &kp A      &kp N      &kp I  &kp S                         &kp F                &kp D               &kp T      &kp E  &kp O  &kp R           &kp MINUS
-&kp EQUAL   &kp COMMA  &kp SLASH  &kp J  &kp G                         &kp X                &kp Z               &kp H      &kp K  &kp W  &kp PERIOD      &kp ESCAPE
+&kp EQUAL   &kp COMMA  &kp SLASH  &kp J  &kp G                         &kp Z                &kp X               &kp H      &kp K  &kp W  &kp PERIOD      &kp ESCAPE
                                   &mo 1  &mt LEFT_SHIFT LC(BACKSPACE)  &mt LCTRL LA(TAB)    &mt LEFT_ALT ENTER  &kp SPACE  &mo 2
             >;
         };
