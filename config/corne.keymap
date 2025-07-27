@@ -225,7 +225,7 @@
 &kp RG(LEFT_ARROW)  &kp N1  &kp N2    &kp N3        &kp N4      &kp N5           &kp N6   &kp N7  &kp N8  &kp N9  &kp N0      &kp RG(RIGHT)
 &kp LG(TAB)         &trans  &kp LEFT  &kp UP_ARROW  &kp RIGHT   &kp PAGE_UP      &kp N0   &kp N4  &kp N5  &kp N6  &trans      &kp PERIOD
 &kp RIGHT_WIN       &trans  &kp HOME  &kp DOWN      &kp END     &kp PAGE_DOWN    &trans   &kp N1  &kp N2  &kp N3  &kp PERIOD  &kp LC(LA(DEL))
-                                      &kp RG(M)     &kp K_MUTE  &kp SPACE        &kp RET  &trans  &trans
+                                      &kp RG(M)     &kp K_MUTE  &kp RG(TAB)      &kp RET  &trans  &trans
             >;
         };
 
