@@ -208,7 +208,7 @@
 &kp DELETE  &kp Q      &kp P      &kp Y      &kp C                         &kp Z            &kp X        &kp M      &kp U         &kp L  &kp APOS    &kp SEMICOLON
 &kp TAB     &kp A      &kp N      &kp I      &kp S                         &kp F            &kp D        &kp T      &kp E         &kp O  &kp R       &kp MINUS
 &kp EQUAL   &kp COMMA  &kp SLASH  &kp B      &kp G                         &kp J            &kp V        &kp H      &kp K         &kp W  &kp PERIOD  &kp ESCAPE
-                                  &kp RCTRL  &mt LEFT_SHIFT LC(BACKSPACE)  &lt 1 RG(TAB)    &lt 2 ENTER  &kp SPACE  &kp LEFT_ALT
+                                  &kp RCTRL  &mt LEFT_SHIFT LC(BACKSPACE)  &lt 1 LA(TAB)    &lt 2 ENTER  &kp SPACE  &kp LEFT_ALT
             >;
         };
 
@@ -222,10 +222,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp RG(LEFT_ARROW)  &kp N1  &kp N2    &kp N3        &kp N4      &kp N5           &kp N6   &kp N7  &kp N8  &kp N9  &kp N0      &kp RG(RIGHT)
-&kp LG(TAB)         &trans  &kp LEFT  &kp UP_ARROW  &kp RIGHT   &kp PAGE_UP      &kp N0   &kp N4  &kp N5  &kp N6  &trans      &kp LA(TAB)
-&kp RIGHT_WIN       &trans  &kp HOME  &kp DOWN      &kp END     &kp PAGE_DOWN    &trans   &kp N1  &kp N2  &kp N3  &kp PERIOD  &kp LC(LA(DEL))
-                                      &kp RG(M)     &kp K_MUTE  &kp RG(TAB)      &kp RET  &trans  &trans
+&kp RG(LEFT_ARROW)  &kp N1         &kp N2    &kp N3        &kp N4      &kp N5         &kp N6   &kp N7  &kp N8  &kp N9  &kp N0      &kp RG(RIGHT)
+&kp LG(TAB)         &kp PAGE_UP    &kp LEFT  &kp UP_ARROW  &kp RIGHT   &kp K_PASTE    &kp N0   &kp N4  &kp N5  &kp N6  &trans      &kp LA(TAB)
+&kp RIGHT_WIN       &kp PAGE_DOWN  &kp HOME  &kp DOWN      &kp END     &kp K_COPY     &trans   &kp N1  &kp N2  &kp N3  &kp PERIOD  &kp LC(LA(DEL))
+                                             &kp RG(M)     &kp K_MUTE  &kp LA(TAB)    &kp RET  &trans  &trans
             >;
         };
 
