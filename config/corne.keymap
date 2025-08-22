@@ -222,10 +222,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp RG(LEFT_ARROW)  &kp N1         &kp N2    &kp N3        &kp N4      &kp N5         &kp N6   &kp N7  &kp N8  &kp N9  &kp N0      &kp RG(RIGHT)
-&kp LG(TAB)         &kp PAGE_UP    &kp LEFT  &kp UP_ARROW  &kp RIGHT   &kp K_PASTE    &kp N0   &kp N4  &kp N5  &kp N6  &trans      &kp LA(TAB)
-&kp RIGHT_WIN       &kp PAGE_DOWN  &kp HOME  &kp DOWN      &kp END     &kp K_COPY     &trans   &kp N1  &kp N2  &kp N3  &kp PERIOD  &kp LC(LA(DEL))
-                                             &kp RG(M)     &kp K_MUTE  &kp LA(TAB)    &kp RET  &trans  &trans
+&kp RG(LEFT_ARROW)  &kp N1         &kp N2    &kp N3        &kp N4      &kp N5         &kp N6     &kp N7  &kp N8             &kp N9  &kp N0      &kp RG(RIGHT)
+&kp LG(TAB)         &kp PAGE_UP    &kp LEFT  &kp UP_ARROW  &kp RIGHT   &kp LC(V)      &kp N0     &kp N4  &kp N5             &kp N6  &trans      &kp LA(TAB)
+&kp RIGHT_WIN       &kp PAGE_DOWN  &kp HOME  &kp DOWN      &kp END     &kp LC(C)      &kp LC(X)  &kp N1  &kp N2             &kp N3  &kp PERIOD  &kp LC(LA(DEL))
+                                             &kp RG(M)     &kp K_MUTE  &kp LA(TAB)    &kp RET    &trans  &kp LC(BACKSPACE)
             >;
         };
 
