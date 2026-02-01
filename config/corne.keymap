@@ -210,10 +210,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp DELETE  &kp Q      &kp P      &kp Y       &kp C                     &kp B            &kp Z        &kp M      &kp U        &kp L  &kp APOS    &kp MINUS
-&kp LCTRL   &kp A      &kp N      &kp I       &kp S                     &kp F            &kp D        &kp T      &kp E        &kp O  &kp R       &kp LEFT_ALT
-&kp EQUAL   &kp COMMA  &kp SLASH  &kp J       &kp G                     &kp X            &kp V        &kp H      &kp K        &kp W  &kp PERIOD  &kp SEMICOLON
-                                  &lt 1 RWIN  &mt LEFT_SHIFT BACKSPACE  &lt 1 LA(TAB)    &lt 2 ENTER  &kp SPACE  &lt 2 RG(E)
+&kp DELETE  &kp Q      &kp P      &kp Y            &kp C                     &kp B            &kp Z        &kp M      &kp U        &kp L  &kp APOS    &kp MINUS
+&kp LCTRL   &kp A      &kp N      &kp I            &kp S                     &kp F            &kp D        &kp T      &kp E        &kp O  &kp R       &kp LEFT_ALT
+&kp EQUAL   &kp COMMA  &kp SLASH  &kp J            &kp G                     &kp X            &kp V        &kp H      &kp K        &kp W  &kp PERIOD  &kp SEMICOLON
+                                  &lt 1 RIGHT_WIN  &mt LEFT_SHIFT BACKSPACE  &lt 1 LA(TAB)    &lt 2 ENTER  &kp SPACE  &lt 2 RG(E)
             >;
         };
 
