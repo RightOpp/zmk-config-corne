@@ -179,8 +179,8 @@
             key-positions = <16 17>;
         };
 
-        Asterix {
-            bindings = <&kp ASTRK>;
+        Copy {
+            bindings = <&kp LC(ASTRK)>;
             key-positions = <3 4>;
         };
 
@@ -189,9 +189,9 @@
             key-positions = <29 28>;
         };
 
-        Tab {
-            bindings = <&kp TAB>;
-            key-positions = <1 2>;
+        Paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <4 5>;
         };
     };
 
@@ -210,10 +210,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp DELETE         &kp Q      &kp P      &kp Y      &kp C                     &kp Z            &kp X        &kp M      &kp U         &kp L  &kp APOS    &kp SEMICOLON
-&kp LC(BACKSPACE)  &kp A      &kp N      &kp I      &kp S                     &kp F            &kp D        &kp T      &kp E         &kp O  &kp R       &kp MINUS
-&kp EQUAL          &kp COMMA  &kp SLASH  &kp G      &kp B                     &kp J            &kp V        &kp H      &kp K         &kp W  &kp PERIOD  &kp ESCAPE
-                                         &kp RCTRL  &mt LEFT_SHIFT BACKSPACE  &lt 1 LA(TAB)    &lt 2 ENTER  &kp SPACE  &kp LEFT_ALT
+&kp DELETE  &kp Q      &kp P      &kp Y       &kp C                     &kp B            &kp Z        &kp M      &kp U        &kp L  &kp APOS    &kp MINUS
+&kp LCTRL   &kp A      &kp N      &kp I       &kp S                     &kp F            &kp D        &kp T      &kp E        &kp O  &kp R       &kp LEFT_ALT
+&kp EQUAL   &kp COMMA  &kp SLASH  &kp J       &kp G                     &kp X            &kp V        &kp H      &kp K        &kp W  &kp PERIOD  &kp SEMICOLON
+                                  &lt 1 RWIN  &mt LEFT_SHIFT BACKSPACE  &lt 1 LA(TAB)    &lt 2 ENTER  &kp SPACE  &lt 2 RG(E)
             >;
         };
 
@@ -229,7 +229,7 @@
             bindings = <
 &kp RG(LEFT_ARROW)  &kp N1         &kp N2    &kp N3        &kp N4      &kp N5         &kp N6             &kp N7  &kp N8             &kp N9  &kp N0      &kp RG(RIGHT)
 &kp LG(TAB)         &kp PAGE_UP    &kp LEFT  &kp UP_ARROW  &kp RIGHT   &kp LC(V)      &kp LS(BACKSPACE)  &kp N4  &kp N5             &kp N6  &trans      &kp LA(TAB)
-&kp RIGHT_WIN       &kp PAGE_DOWN  &kp HOME  &kp DOWN      &kp END     &kp LC(C)      &kp LC(X)          &kp N1  &kp N2             &kp N3  &kp PERIOD  &kp LC(LA(DEL))
+&kp RIGHT_WIN       &kp PAGE_DOWN  &kp HOME  &kp DOWN      &kp END     &kp LC(C)      &kp LC(X)          &kp N1  &kp N2             &kp N3  &kp PERIOD  &kp ESC
                                              &kp RG(M)     &kp K_MUTE  &kp LA(TAB)    &kp RET            &trans  &kp LC(BACKSPACE)
             >;
         };
@@ -246,7 +246,7 @@
             bindings = <
 &trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR       &kp PRCNT        &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RPAR  &trans
 &trans  &kp F1    &kp F2  &kp F3    &kp F4         &kp F5           &kp F11    &kp EQUAL  &kp LBKT   &kp RBKT              &kp BSLH  &trans
-&trans  &kp F6    &kp F7  &kp F8    &kp F9         &kp F10          &kp F12    &kp PLUS   &kp LBRC   &kp RBRC              &kp PIPE  &trans
+&trans  &kp F6    &kp F7  &kp F8    &kp F9         &kp F10          &kp F12    &kp PLUS   &kp LBRC   &kp RBRC              &kp PIPE  &kp LC(LA(DEL))
                           &kp LGUI  &kp BACKSPACE  &kp RIGHT_WIN    &kp RET    &trans     &trans
             >;
         };
